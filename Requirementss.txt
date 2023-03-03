@@ -1,0 +1,4 @@
+streanlit
+NumPy
+sklearn
+pandas

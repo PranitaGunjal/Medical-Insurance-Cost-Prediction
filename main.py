@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import pickle
 import streamlit as st
-import sklearn
+import time
 # importing the pickle file :
 load_model = pickle.load(open('insurance_claim(1).pkl', 'rb'))
 data = pd.read_csv('insurance.csv')

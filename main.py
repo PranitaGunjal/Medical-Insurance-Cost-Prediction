@@ -4,12 +4,12 @@ import pickle
 import streamlit as st
 import sklearn
 # importing the pickle file :
-load_model = pickle.load(open('/Users/Tejas Gunjal/Downloads/insurance_claim.pkl', 'rb'))
-data = pd.read_csv('/Users/Tejas Gunjal/Downloads/archive (1)/insurance.csv')
+load_model = pickle.load(open('insurance_claim(1).pkl', 'rb'))
+data = pd.read_csv('insurance.csv')
 
 st.markdown(' ------')
 st.title('MEDICAL INSURANCE PREDICTION')
-st.image('/Users/Tejas Gunjal/AppData/Roaming/Microsoft/Windows/Network Shortcuts/Health_insurance.jpg')
+st.image('Health_insurance.jpg')
 st.markdown(' ------')
 
 nav = st.sidebar.radio("Navigation", ["Home", "Prediction"])

@@ -4,7 +4,7 @@ import pickle
 import streamlit as st
 import time
 # importing the pickle file :
-load_model = pickle.load(open('insurance_claim(1).pkl', 'rb'))
+load_model = pickle.load(open('insurance_claim (1).pkl', 'rb'))
 data = pd.read_csv('insurance.csv')
 
 st.markdown(' ------')

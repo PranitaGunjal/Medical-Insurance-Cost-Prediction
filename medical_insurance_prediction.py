@@ -1,22 +1,4 @@
-Skip to content
-DivyaArunthathiar
-/
-Medical_Insurance_Prediction
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-Medical_Insurance_Prediction/Medical Insurance Prediction.py
-@DivyaArunthathiar
-DivyaArunthathiar Add files via upload
- 1 contributor
-566 lines (311 sloc)  12.5 KB
-#!/usr/bin/env python
-# coding: utf-8
+
 
 # #  ------------------ MEDICAL INSURANCE CHARGES PREDICTION -----------------------
 Libraries Used :
@@ -36,7 +18,7 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn import metrics
 import pickle
 
-IMPORTING LIBRARIES
+#IMPORTING LIBRARIES
 # In[2]:
 
 

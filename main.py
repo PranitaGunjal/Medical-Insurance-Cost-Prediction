@@ -10,7 +10,7 @@ data = pd.read_csv('insurance.csv')
 
 st.markdown("-------------------------------------------------------------------------------------------------------")
 st.title("MEDICAL INSURANCE PREDICTION ")
-st.image("Health_insurance.png")
+st.image("Health_insurance.jpg")
 st.markdown("-------------------------------------------------------------------------------------------------------")
 
 

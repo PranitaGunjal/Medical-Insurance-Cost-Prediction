@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import pickle
 import streamlit as st
-
+import sklearn 
 import time
 
 load_model= pickle.load(open('insurance_claim.pkl', 'rb'))
